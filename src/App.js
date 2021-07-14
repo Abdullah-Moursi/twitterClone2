@@ -1,9 +1,13 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import Sidebar from "./components/Sidebar";
+import Twittes from "./components/Twittes";
 
 function App() {
   return (
-    <div className="App">
-app
+    <div className="Twitter">
+      <Sidebar />
+      <Twittes />
     </div>
   );
 }
