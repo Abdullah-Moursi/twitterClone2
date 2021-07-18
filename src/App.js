@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
+import Trends from "./components/Trends";
 import Twittes from "./components/Twittes";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="Twitter">
       <Sidebar />
       <Twittes />
+      <Trends />
     </div>
   );
 }

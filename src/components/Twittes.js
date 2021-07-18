@@ -1,5 +1,6 @@
 import React from 'react'
 import CreateTweet from './CreateTweet'
+import Posts from './Posts'
 
 const Twittes = () => {
     return (
@@ -8,6 +9,10 @@ const Twittes = () => {
         Home
     </div>
     <CreateTweet />
+    <Posts />
+    <Posts />
+    <Posts />
+
 </div>
     )
 }
