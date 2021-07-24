@@ -282,3 +282,7 @@ padding-bottom: 8px;
   font-size: 14px;
   font-weight: 300;
 }
+
+.selected {
+  color: #1da1f2;
+}
